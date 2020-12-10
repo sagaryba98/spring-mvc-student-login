@@ -24,6 +24,9 @@ public class StudentController {
 
 	}
 
+	//comment added 
+	
+	
 	@PostMapping("/addStudent")
 	public String addStudent(HttpServletRequest req) {
 		String name = req.getParameter("name");
